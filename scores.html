@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+  <title>Cricket Score</title>
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1 0 auto;
+    }
+  </style>
+</head>
+
+<body class="blue-grey lighten-5">
+
+  <header>
+    <ul id="dropdown1" class="dropdown-content ">
+      <li><a href="./matches.html">List of Matches</a></li>
+      <li><a href="./summary.html">Match Summary</a></li>
+      <li><a href="./details.html">Team Details</a></li>
+
+
+    </ul>
+
+    <nav class="nav-wrapper teal lighten-2" style="padding:0px 10px;">
+      <div class="nav-wrapper">
+        <a href="./index.html" class="brand-logo left">
+          <img src="img/logo3.png" width="20%">
+        </a>
+        <a href="/" class="right sidenav-trigger" data-target="mobile-nav">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="./index.html" class="">Home</a></li>
+          <li><a href="./countries.html" class="">Countries</a></li>
+          <li><a href="./teams.html">Teams</a></li>
+          <li><a href="./players.html">Players</a></li>
+          <li><a href="./venue.html">Venue</a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">
+
+              Matches<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="./result.html">Results</a></li>
+          <li><a href="./scores.html">Tournament Score Table</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul id="dropdown2" class="dropdown-content ">
+      <li><a href="./matches.html">List of Matches</a></li>
+      <li><a href="./summary.html">Match Summary</a></li>
+      <li><a href="./details.html">Team Details</a></li>
+
+
+    </ul>
+
+
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="./index.html" class="">Home</a></li>
+      <li><a href="./countries.html" class="">Countries</a></li>
+      <li><a href="./teams.html">Teams</a></li>
+      <li><a href="./players.html">Players</a></li>
+      <li><a href="./venue.html">Venue</a></li>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">
+          Matches<i class="material-icons right">arrow_drop_down</i></a></li>
+
+      <li><a href="./result.html">Results</a></li>
+      <li><a href="./scores.html">Tournament Score Table</a></li>
+
+    </ul>
+
+  </header>
+
+  <main>
+
+    <div class="container">
+      <div class="center">
+        <h5 class="black-text">SCORES TABLE</h5>
+      </div>
+
+      <div class="row">
+
+        <table class="centered highlight">
+          <thead>
+            <tr>
+              <th>TEAM</th>
+              <th>MATCHES</th>
+              <th>WON</th>
+              <th>LOS</th>
+              <th>PTS</th>
+              <th>NRR</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td><img src="img/Ind.jpg" width="40px" height="30px" style="vertical-align: middle;">
+                <p style="display: inline-block;">IND</p>
+              </td>
+              <td>3</td>
+              <td>3</td>
+              <td>0</td>
+              <td>6</td>
+              <td>+3.754</td>
+            </tr>
+
+            <tr>
+              <td><img src="img/aur.jpg" width="40px" height="30px" style="vertical-align: middle;">
+                <p style="display: inline-block;">AUS</p>
+              </td>
+              <td>2</td>
+              <td>2</td>
+              <td>0</td>
+              <td>4</td>
+              <td>+0.727</td>
+            </tr>
+
+            <tr>
+              <td><img src="img/sf.jpg" width="40px" height="30px" style="vertical-align: middle;">
+                <p style="display: inline-block;">SA</p>
+              </td>
+              <td>2</td>
+              <td>1</td>
+              <td>1</td>
+              <td>2</td>
+              <td>+0.179</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="page-footer #616161 grey darken-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12 m12 center">
+          <h5 class="white-text">Contact</h5>
+          <p class="grey-text text-lighten-4">Mukeshgupta01999@gmail.com</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright #424242 grey darken-3">
+      <div class="container center-align">
+        © 2021 Copyright Mukesh Gupta
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+
+      $(".dropdown-trigger").dropdown({
+        coverTrigger: false
+      });
+
+
+    });
+  </script>
+
+</body>
+
+</html>

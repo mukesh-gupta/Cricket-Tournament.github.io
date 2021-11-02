@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+  <title>Cricket score</title>
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1 0 auto;
+    }
+  </style>
+</head>
+
+<body class="blue-grey lighten-5">
+
+  <header>
+    <ul id="dropdown1" class="dropdown-content ">
+      <li><a href="./matches.html">List of Matches</a></li>
+      <li><a href="./summary.html">Match Summary</a></li>
+      <li><a href="./details.html">Team Details</a></li>
+
+
+
+    </ul>
+
+    <nav class="nav-wrapper teal lighten-2" style="padding:0px 10px;">
+      <div class="nav-wrapper">
+        <a href="./index.html" class="brand-logo left">
+          <img src="img/logo3.png" width="20%">
+        </a>
+        <a href="/" class="right sidenav-trigger" data-target="mobile-nav">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="./index.html" class="">Home</a></li>
+          <li><a href="./countries.html" class="">Countries</a></li>
+          <li><a href="./teams.html">Teams</a></li>
+          <li><a href="./players.html">Players</a></li>
+          <li><a href="./venue.html">Venue</a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">
+
+              Matches<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="./result.html">Results</a></li>
+          <li><a href="./scores.html">Tournament Score Table</a></li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <ul id="dropdown2" class="dropdown-content ">
+      <li><a href="./matches.html">List of Matches</a></li>
+      <li><a href="./summary.html">Match Summary</a></li>
+      <li><a href="./details.html">Team Details</a></li>
+
+
+
+    </ul>
+
+
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="./index.html" class="">Home</a></li>
+      <li><a href="./countries.html" class="">Countries</a></li>
+      <li><a href="./teams.html">Teams</a></li>
+      <li><a href="./players.html">Players</a></li>
+      <li><a href="./venue.html">Venue</a></li>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">
+          Matches<i class="material-icons right">arrow_drop_down</i></a></li>
+
+      <li><a href="./result.html">Results</a></li>
+      <li><a href="./scores.html">Tournament Score Table</a></li>
+
+    </ul>
+
+  </header>
+
+  <main>
+
+    <div class="container">
+      <div class="center">
+        <h5 class="black-text">List Of Matches</h5>
+      </div>
+
+      <div class="row center">
+
+        <ul class="collection ">
+
+          <li class="collection-item grey lighten-5">
+            <p style="display: inline-block;">
+              <strong>South Africa</strong>
+            </p>
+            <img src="img/sf.jpg" width="50px" height="30px" style="vertical-align: middle;">
+            <p style="display: inline-block;">
+              <strong>Vs</strong>
+            </p>
+            <img src="img/srl.jpg" width="50px" height="30px" style="vertical-align: middle;">
+            <p style="display: inline-block;">
+              <strong>Sri Lanka</strong>
+            </p>
+            <p style="font-weight:bold;">Match 25, 2021 ICC Men's T20 World Cup
+              Sharjah Cricket Stadium, Sharjah.</p>
+          </li>
+
+          <li class="collection-item grey lighten-5">
+            <p style="display: inline-block;">
+              <strong>Australia</strong>
+            </p>
+            <img src="img/aur.jpg" width="50px" height="30px" style="vertical-align: middle;">
+            <p style="display: inline-block;">
+              <strong>Vs</strong>
+            </p>
+            <img src="img/eng.jpg" width="50px" height="30px" style="vertical-align: middle;">
+            <p style="display: inline-block;">
+              <strong>England</strong>
+            </p>
+            <p style="font-weight:bold;">Match 26, 2021 ICC Men's T20 World Cup | Dubai International Stadium, Dubai.
+            </p>
+          </li>
+
+          <li class="collection-item grey lighten-5">
+            <p style="display: inline-block;">
+              <strong>India</strong>
+            </p>
+            <img src="img/Ind.jpg" width="50px" height="30px" style="vertical-align: middle;">
+            <p style="display: inline-block;">
+              <strong>Vs</strong>
+            </p>
+            <img src="img/nzl.jpg" width="50px" height="30px" style="vertical-align: middle;">
+            <p style="display: inline-block;">
+              <strong>New Zealand</strong>
+            </p>
+            <p style="font-weight:bold;">Match 28, 2021 ICC Men's T20 World Cup | Dubai International Stadium, Dubai.
+            </p>
+            </p>
+          </li>
+
+          <li class="collection-item grey lighten-5">
+            <p style="display: inline-block;">
+              <strong>South Africa</strong>
+            </p>
+            <img src="img/sf.jpg" width="50px" height="30px" style="vertical-align: middle;">
+            <p style="display: inline-block;">
+              <strong>Vs</strong>
+            </p>
+            <img src="img/bgd.jpg" width="50px" height="30px" style="vertical-align: middle;">
+            <p style="display: inline-block;">
+              <strong>Bangladesh</strong>
+            </p>
+            <p style="font-weight:bold;">Match 30, 2021 ICC Men's T20 World Cup | Zayed Cricket Stadium, Abu Dhabi.</p>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="page-footer #616161 grey darken-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12 m12 center">
+          <h5 class="white-text">Contact</h5>
+          <p class="grey-text text-lighten-4">Mukeshgupta01999@gmail.com</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright #424242 grey darken-3">
+      <div class="container center-align">
+        © 2021 Copyright Mukesh Gupta
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+
+      $(".dropdown-trigger").dropdown({
+        coverTrigger: false
+      });
+
+
+
+    });
+  </script>
+
+</body>
+
+</html>

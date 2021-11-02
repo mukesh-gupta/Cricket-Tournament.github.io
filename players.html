@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+  <title>Cricket score</title>
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1 0 auto;
+    }
+  </style>
+</head>
+
+<body class="brown lighten-5">
+
+  <header>
+    <ul id="dropdown1" class="dropdown-content ">
+      <li><a href="./matches.html">List of Matches</a></li>
+      <li><a href="./summary.html">Match Summary</a></li>
+      <li><a href="./details.html">Team Details</a></li>
+
+
+
+    </ul>
+
+    <nav class="nav-wrapper teal lighten-2" style="padding:0px 10px;">
+
+      <div class="nav-wrapper">
+        <a href="./index.html" class="brand-logo left">
+          <img src="img/logo3.png" width="20%">
+        </a>
+        <a href="/" class="right sidenav-trigger" data-target="mobile-nav">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="./index.html" class="">Home</a></li>
+          <li><a href="./countries.html" class="">Countries</a></li>
+          <li><a href="./teams.html">Teams</a></li>
+          <li><a href="./players.html">Players</a></li>
+          <li><a href="./venue.html">Venue</a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">
+
+              Matches<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="./result.html">Results</a></li>
+          <li><a href="./scores.html">Tournament Score Table</a></li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <ul id="dropdown2" class="dropdown-content ">
+      <li><a href="./matches.html">List of Matches</a></li>
+      <li><a href="./summary.html">Match Summary</a></li>
+      <li><a href="./details.html">Team Details</a></li>
+
+
+
+    </ul>
+
+
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="./index.html" class="">Home</a></li>
+      <li><a href="./countries.html" class="">Countries</a></li>
+      <li><a href="./teams.html">Teams</a></li>
+      <li><a href="./players.html">Players</a></li>
+      <li><a href="./venue.html">Venue</a></li>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">
+          Matches<i class="material-icons right">arrow_drop_down</i></a></li>
+
+      <li><a href="./result.html">Results</a></li>
+      <li><a href="./scores.html">Tournament Score Table</a></li>
+
+    </ul>
+
+  </header>
+
+  <main>
+
+    <div class="container">
+      <div class="center">
+        <h5 class="black-text">PLAYERS NAME</h5>
+      </div>
+
+      <div class="row">
+
+        <ul class="collapsible popout expandable">
+          <li>
+            <div class="collapsible-header blue-grey lighten-4">
+
+              <img src="img/Ind.jpg" width="60px" height="60px" class="circle">
+
+
+              <p class="" style="padding:0px 10px;">INDIA</p>
+
+            </div>
+            <div class="collapsible-body grey lighten-5">
+
+              <ul class="collection with-header">
+                <li class="collection-header blue-grey lighten-4">
+                  <h4>Players Name</h4>
+                </li>
+                <li class="collection-item avatar grey lighten-3">
+                  <img src="img/players/dhoni.jpeg" alt="" class="circle">
+                  <span class="title">MS Dhoni (wk)</span>
+                  <p>Batsman <br>
+                    Age: 40
+                  </p>
+                </li>
+                <li class="collection-item avatar grey lighten-3 ">
+                  <img src="img/players/kohli.jpeg" alt="" class="circle">
+                  <span class="title">Virat Kohli (c)</span>
+                  <p>Batsman <br>
+                    Age: 32
+                  </p>
+                </li>
+                <li class="collection-item avatar grey lighten-3">
+                  <img src="img/players/rohit.jpeg" alt="" class="circle">
+                  <span class="title">Rohit Sharma</span>
+                  <p>Batsman <br>
+                    Age: 34
+                  </p>
+                </li>
+                <li class="collection-item avatar grey lighten-3">
+                  <img src="img/players/jadeja.jpeg" alt="" class="circle">
+                  <span class="title">Ravindra Jadeja</span>
+                  <p>Allrounder<br>
+                    Age: 32
+                  </p>
+                </li>
+                <li class="collection-item avatar grey lighten-3">
+                  <img src="img/players/hardik.jpeg" alt="" class="circle">
+                  <span class="title">Hardik Pandya</span>
+                  <p>Allrounder<br>
+                    Age: 28
+                  </p>
+                </li>
+                <li class="collection-item avatar grey lighten-3">
+                  <img src="img/players/kumar.jpeg" alt="" class="circle">
+                  <span class="title">Bhuvneshwar Kumar</span>
+                  <p>Bowler<br>
+                    Age: 31
+                  </p>
+                </li>
+                <li class="collection-item avatar grey lighten-3">
+                  <img src="img/players/jasprit.jpeg" alt="" class="circle">
+                  <span class="title">Jasprit Bumrah</span>
+                  <p>Bowler<br>
+                    Age: 27
+                  </p>
+                </li>
+                <li class="collection-item avatar grey lighten-3">
+                  <img src="img/players/rahul.jpeg" alt="" class="circle">
+                  <span class="title">KL Rahul</span>
+                  <p>Batsman<br>
+                    Age: 29
+                  </p>
+                </li>
+                <li class="collection-item avatar grey lighten-3">
+                  <img src="img/players/pant.jpeg" alt="" class="circle">
+                  <span class="title">Rishabh Pant</span>
+                  <p>Batsman<br>
+                    Age: 24
+                  </p>
+                </li>
+
+              </ul>
+            </div>
+          </li>
+
+
+          <li>
+            <div class="collapsible-header blue-grey lighten-4">
+
+              <img src="img/aur.jpg" width="60px" height="60px" class="circle">
+
+
+              <p class="" style="padding: 0px 10px;">AUSTRALIA</p>
+
+            </div>
+            <div class="collapsible-body grey lighten-5">
+
+              <ul class="collection with-header">
+                <li class="collection-header blue-grey lighten-4">
+                  <h4>Players Name</h4>
+                </li>
+                <li class="collection-item avatar grey lighten-3">
+                  <img src="img/players/warner.jpeg" alt="" class="circle">
+                  <span class="title">David Warner (c)</span>
+                  <p>Batsman <br>
+                    Age: 35
+                  </p>
+                </li>
+                <li class="collection-item avatar grey lighten-3 ">
+                  <img src="img/players/smith.jpeg" alt="" class="circle">
+                  <span class="title">Steve Smith</span>
+                  <p>Batsman <br>
+                    Age: 32
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+
+
+          <li>
+            <div class="collapsible-header blue-grey lighten-4">
+
+              <img src="img/wid.jpg" width="60px" height="60px" class="circle">
+
+
+              <p class="" style="padding: 0px 10px;">WEST INDIES</p>
+
+            </div>
+            <div class="collapsible-body grey lighten-5">
+
+              <ul class="collection with-header">
+                <li class="collection-header blue-grey lighten-4">
+                  <h4>Players Name</h4>
+                </li>
+                <li class="collection-item avatar grey lighten-3">
+                  <img src="img/players/gayle.jpeg" alt="" class="circle">
+                  <span class="title">Chris Gayle</span>
+                  <p>Batsman <br>
+                    Age: 42
+                  </p>
+                </li>
+                <li class="collection-item avatar grey lighten-3 ">
+                  <img src="img/players/pollard.jpeg" alt="" class="circle">
+                  <span class="title">Kieron Pollard</span>
+                  <p>Batsman <br>
+                    Age: 34
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+
+    </div>
+  </main>
+
+  <footer class="page-footer #616161 grey darken-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12 m12 center">
+          <h5 class="white-text">Contact</h5>
+          <p class="grey-text text-lighten-4">Mukeshgupta01999@gmail.com</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright #424242 grey darken-3">
+      <div class="container center-align">
+        © 2021 Copyright Mukesh Gupta
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+
+      $(".dropdown-trigger").dropdown({
+        coverTrigger: false
+      });
+
+
+      $('.collapsible').collapsible();
+
+    });
+  </script>
+
+</body>
+
+</html>
